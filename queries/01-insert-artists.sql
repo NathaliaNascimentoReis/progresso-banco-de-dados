@@ -9,3 +9,9 @@ CREATE TABLE artistas {
     musica_mais_ouvida VARCHAR(100),
     ativo BOOLEAN DEFAULT TRUE
 };
+
+INSERT INTO artistas (nome, tipo, membros_quantidade, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativp)
+VALUES 
+(
+    'NewJeans', 'Grupo', 5, 'Kpop, Nostalgic Y2K', 'Coreia, Vietnã e Austrália', 2022, 'Ditto', true
+);
